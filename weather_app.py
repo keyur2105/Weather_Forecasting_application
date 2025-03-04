@@ -29,7 +29,7 @@ pressure9am = st.number_input("Pressure at 9:00 AM",format="%.2f")
 pressure3pm = st.number_input("Pressure at 9:00 PM",format="%.2f")
 raintoday = st.selectbox("RainToday",['Yes','No'])
 
- 
+
 if st.button("Predict"):
 
     # convert Raintoday to Numeric Format
