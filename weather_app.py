@@ -9,8 +9,9 @@ with open("df.pkl","rb") as file:
     df = pickle.load(file)
 with open("pipe.pkl","rb") as file:
     pipe = pickle.load(file)
-with open("Columns.pkl","rb") as file:
-    columns = pickle.load(file)
+    
+# with open("Columns.pkl","rb") as file:
+#     columns = pickle.load(file)
 
 # User input
 location = st.selectbox("Location",df['Location'].unique())
